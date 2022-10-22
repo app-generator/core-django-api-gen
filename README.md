@@ -36,8 +36,8 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 > 👉 Download the code  
 
 ```bash
-$ git clone https://github.com/app-generator/core-django.git
-$ cd core-django
+$ git clone https://github.com/app-generator/core-django-api-gen.git
+$ cd core-django-api-gen
 ```
 
 <br />
