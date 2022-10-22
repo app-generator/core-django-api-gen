@@ -91,4 +91,4 @@ At this point, the app runs at `http://127.0.0.1:8000/` and the API is usable `h
 <br />
 
 ---
-[Django API Generator](https://github.com/app-generator/django-api-generator) `Sampl` - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
+[Django API Generator](https://github.com/app-generator/django-api-generator) `Sample` - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
