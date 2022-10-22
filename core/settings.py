@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    "app1",
+
+    'django_api_gen',            # Django API GENERATOR  # <-- NEW
+    'rest_framework',            # Include DRF           # <-- NEW 
+    'rest_framework.authtoken',  # Include DRF Auth      # <-- NEW      
+
 ]
 
 MIDDLEWARE = [
@@ -121,3 +128,19 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+'''
+API_GENERATOR = {
+    # pattern: 
+    # API_SLUG -> Import_PATH 
+    'books'   : "app1.models.Book",
+    'cities'  : "app1.models.City",
+}
+'''
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+}

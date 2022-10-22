@@ -1,11 +1,13 @@
-# Django Core
+# [Django API Generator](https://github.com/app-generator/django-api-generator) `Sample`
 
 Minimal **Django** project with `Docker` support - actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
 
-> Features: 
+> Features - see **[video](https://www.youtube.com/watch?v=fkjvhFejEv8)** presentation
 
 - ✅ `Up-to-date Dependencies`
 - ✅ `Docker`
+- ✅ Integrates [API Generator](https://github.com/app-generator/django-api-generator) Library for Django
+
 
 <br />
 
@@ -48,7 +50,6 @@ $ virtualenv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
 ```
-
 <br />
 
 > 👉 Set Up Database
@@ -60,15 +61,35 @@ $ python manage.py migrate
 
 <br />
 
+> 👉 Create SuperUser
+
+```bash
+$ python manage.py createsuperuser
+```
+
+<br />
+
+> 👉 Generate the API for `Books` model
+
+```bash
+$ python manage.py generate-api
+```
+
+<br />
+
 > 👉 Start the app
 
 ```bash
 $ python manage.py runserver
 ```
 
-At this point, the app runs at `http://127.0.0.1:8000/`. 
+At this point, the app runs at `http://127.0.0.1:8000/` and the API is usable `http://127.0.0.1:8000/api/books/`
+
+<br />
+
+![Django API Generator - DRF Interface (open-source tool).](https://user-images.githubusercontent.com/51070104/197181145-f7458df7-23c3-4c14-bcb1-8e168882a104.jpg)
 
 <br />
 
 ---
-**Django Core** - Minimal **Django** core provided by **[AppSeed](https://appseed.us/)**
+[Django API Generator](https://github.com/app-generator/django-api-generator) `Sampl` - Minimal **Django** starter provided by **[AppSeed](https://appseed.us/)**
