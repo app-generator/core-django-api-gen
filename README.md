@@ -8,7 +8,6 @@ Minimal **Django** project with `Docker` support - actively supported by [AppSee
 - ✅ `Docker`
 - ✅ Integrates [API Generator](https://github.com/app-generator/django-api-generator) Library for Django
 
-
 <br />
 
 ## ✨ Start the app in Docker
